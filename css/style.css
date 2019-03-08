@@ -1,0 +1,139 @@
+html, body, #map {
+  height: 800px;
+}
+
+/***** NAVBAR *****/
+.navbar-default {
+  background-color: #7bb7d1;
+  border-radius: 0;
+  background-image: none;
+}
+
+/* Navbar title */
+.navbar-default .navbar-brand {
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Navibar hover */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ea998f;
+}
+
+/* Navbar links */
+.navbar-default .navbar-nav > li > a {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Navbar collapsed styles */
+.navbar-header .navbar-toggle {
+  color: black;
+}
+
+.navbar-header .navbar-toggle:hover,
+.navbar-header .navbar-toggle:focus {
+  background-color: #ea998f;
+  color: #242424;
+}
+
+#map{
+  width: 72%;
+  float: left;
+  margin-left: 20px;
+  border-style: double;
+  margin-bottom: 20px;
+}
+
+#panel {
+  float: right;
+  width: 22%;
+  padding: 20px;
+  vertical-align: top;
+  text-align: center;
+  margin-right: 20px;
+  line-height: 30px;
+  background-color :#ea998f;
+
+}
+
+body {
+    /* background: linear-gradient(to right, #ffff66, #ffffcc); */
+    background-color: #e6f2ff;
+    border-radius: 6px;
+    height: 120px;
+  font-family: Tahoma;
+}
+
+.leaflet-popup-content p {
+    margin: 0.2em 0;
+}
+
+.legend-control-container {
+	width: 200px;
+    height: 120px;
+	background-color: white;
+    padding: 15px;
+    line-height: px;
+    text-align: center;
+    border: solid black 1px;
+	font-family: Tahoma, Roman, Verdana;
+	font-size: 1em;
+}
+
+.leaflet-popup-content p {
+    margin: 0.2em 0;
+}
+
+#forward {
+    float: right;
+}
+
+#reverse {
+    float: left;
+}
+
+.sequence-control-container {
+    width: 450px;
+    height: 80px;
+    background-color: white;
+    padding: 10px;
+    line-height: 25px;
+    text-align: center;
+    border: solid gray 1px;
+    margin-bottom: 5px;
+}
+
+.range-slider {
+    width: 300px;
+}
+
+#header {
+  color:#0080ff;
+  text-align: center;
+  font-size: 2em;
+  font-family: Tahoma, Roman, Verdana;
+  margin-top: 70px;
+  margin-bottom: 25px;
+  padding: 0;
+  
+}
+
+#header2 {
+  padding: 0;
+  text-align: center;
+  font-size: 1em;
+  font-family: Tahoma, Roman, Verdana;
+}
+
+#sources {
+  font-size: .9em;
+  font-family: Tahoma, Roman, Verdana;
+  line-height: 10px;
+  opacity: .8;
+}
